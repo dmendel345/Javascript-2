@@ -1,1 +1,1 @@
-# Javascript-2
+# Javascript Conditions EXercise
