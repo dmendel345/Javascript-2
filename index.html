@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/lib/style.css">
+    <script src="/lib/script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>EX JavaScript</h1>
+
+        <!-- EX JavaScript Conditions 1 -->
+    <h2>EX JavaScript Conditions 1</h2>
+    <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <label for=""></label>
+            <div>
+                <input type="Enter a number" type="number" class="form-control" name="" id="number1"
+                    aria-describedby="helpId" maxlength="2" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from 0-99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white">
+            </div>
+            <div><input type="Enter a number" type="number" class="form-control" name="" id="number2"
+                    aria-describedby="helpId" maxlength="2" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from 0-99</small>
+                <button type="button" onclick="checkNumberSize()">what is the bigger number</button>
+            </div>
+        </div>
+    </form>
+
+        <!-- EX JavaScript Conditions 2 -->
+    <h2>EX JavaScript Conditions 2</h2>
+
+    <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <label for=""></label>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number4"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white"></div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number5"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white"></div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number6"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+                <button type="button" onclick="checkNumber()">what is the sum</button>
+            </div>
+        </div>
+    </form>
+
+        <!-- EX JavaScript Conditions 3 -->
+    <h2>EX JavaScript Conditions 3</h2>
+
+    <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <label for=""></label>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number7"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white">
+            </div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number8"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white"></div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number9"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+                <button type="button" onclick="orderDecent()">Order decent</button>
+            </div>
+        </div>
+    </form>
+
+        <!-- EX JavaScript Conditions 4 -->
+    <h2>EX JavaScript Conditions 4</h2>
+
+    <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <label for=""></label>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number10"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white">
+            </div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number11"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white"></div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number12"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white"></div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number13"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+            </div>
+            <div class="form-group shadow-sm p-4 mb-4 bg-white"></div>
+            <div>
+                <input type="Enter any number" type="number" class="form-control" name="" id="number14"
+                    aria-describedby="helpId" maxlength="3" placeholder="">
+                <small id="helpId" class="form-text text-muted">Enter a number from -99 to 99</small>
+                <button type="button" onclick="numberHighest()">Highest number</button>
+            </div>
+        </div>
+    </form>
+
+     <!-- EX JavaScript Conditions 5 -->
+     <h2>EX JavaScript Conditions 5</h2>
+     <form class="form-inline" action="/action_page.php">
+         <div class="form-group">
+             <label for=""></label>
+             <div>
+                 <button type="button" onclick="studentAverage()">what is the class average</button>
+             </div>
+         </div>
+     </form>
+
+</body>
+
+</html>
